@@ -1,6 +1,5 @@
 <?php 
-$expire=time()+60*60*24*30;
-setcookie("lang", "en", $expire);
+setcookie("lang", "en");
 $back = $_SERVER['HTTP_REFERER'];
 header('Location: ' . $back);
 ?>

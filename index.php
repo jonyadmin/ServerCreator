@@ -1,6 +1,6 @@
 <?php
 if (!isset($_COOKIE["lang"])) {
-	include "lang/en.php"; }
+	include "lang/pt.php"; }
  elseif ($_COOKIE["lang"]=="en") {
 	include "lang/en.php"; }
  elseif ($_COOKIE["lang"]=="pt") {
@@ -187,6 +187,7 @@ if (!isset($_COOKIE["lang"])) {
 					<div class="form-lang">
 						<label>Language:</label>
 							<select id="selectland" class="selectland" onchange="location.href=this.value;">
+							<option value="#">Select Language</option>
 							<option value="lang/change_en.php">Inglês</option>
 							<option value="lang/change_pt.php">Português</option>
 							<option value="lang/change_es.php">Espanhol</option>
