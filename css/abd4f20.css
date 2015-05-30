@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2014, 8:59:37 AM
+    Author     : Kami
+*/
+
+
+body{
+    background-color: #fff;
+
+}
+
+html{
+
+}
+
+body, html{
+    overflow-x:hidden;
+    width:100%;
+    height:100%;
+    
+}
+
+#Website{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:70px;
+    min-height:100%;
+}
+
+#Website .footer{
+    margin-top:15px;
+    border-top:2px solid #ccc;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    background: #f8f8f8; 
+    height:60px; 
+
+}
+
+body header{
+    height:150px;
+    background: #053d51; /* Old browsers */
+    background: #053d51; /* Old browsers */
+    background: #053d51; /* Old browsers */
+    background: #053d51; /* Old browsers */
+    background: #053d51; /* Old browsers */
+    background: -moz-linear-gradient(top,  #053d51 0%, #087994 71%, #1e99a2 71%, #1e99a2 72%, #064d63 72%, #064d63 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#053d51), color-stop(71%,#087994), color-stop(71%,#1e99a2), color-stop(72%,#1e99a2), color-stop(72%,#064d63), color-stop(100%,#064d63)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #053d51 0%,#087994 71%,#1e99a2 71%,#1e99a2 72%,#064d63 72%,#064d63 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #053d51 0%,#087994 71%,#1e99a2 71%,#1e99a2 72%,#064d63 72%,#064d63 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #053d51 0%,#087994 71%,#1e99a2 71%,#1e99a2 72%,#064d63 72%,#064d63 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #053d51 0%,#087994 71%,#1e99a2 71%,#1e99a2 72%,#064d63 72%,#064d63 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053d51', endColorstr='#064d63',GradientType=0 ); /* IE6-9 */
+
+    border-bottom: 2px solid white;
+
+
+}
+
+header .logo{
+    position:relative;
+    top:58px;
+}
+
+.floatright {
+    float:right;
+}
+
+td.head{
+  font-weight: bold;
+  margin-left:20px;
+}
+
+body.blackbody{
+    background-color: #020305;
+
+}
+
+.blackbody .navbar-default{
+    background-color: #333;
+    border-color:#444;
+}
+
+.blackbody .navbar-default .navbar-nav > li > a:hover,
+.blackbody .navbar-default .navbar-nav > li > a:focus {
+    color:white;
+}
+
+.blackbody .navbar-default .navbar-nav > .active > a,
+.blackbody .navbar-default .navbar-nav > .active > a:hover,
+.blackbody .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #111;
+    color:#ccc;
+}
+
+.blackbody header {
+    border-bottom: 2px solid #444;
+
+}
+
+.blackbody #Website .footer{
+    border-top: 2px solid #222;
+    background-color: #111;
+    display:none;
+}
+
+
+.blackbody{
+    background-image: url(../bundles/hashieldwebsite/images/famebg.jpg);
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+#WebsiteContent{
+}
+
+
+.famelist{
+    text-align:center;
+}
+
+.smallfame{
+    background-position:center top;
+    background-repeat:no-repeat;
+    display:inline-block;
+    padding-top:35px;
+    text-align: center;
+    min-width: 100px;
+
+}
+
+.smallfame h3{
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #555;
+
+}
+
+.smallfame p{
+    margin-top:0px;
+    text-shadow: 1px 1px 0px #555;
+}
+
+.smallfame1{
+    color:#ED9C66;
+    background-image: url(../bundles/hashieldwebsite/images/smallfame1.png);
+}
+
+.smallfame2{
+    color:#DBD5C1;
+    background-image: url(../bundles/hashieldwebsite/images/smallfame2.png);
+}
+
+.smallfame3{
+    color:#c2ccd1;
+    background-image: url(../bundles/hashieldwebsite/images/smallfame3.png);
+}
+
+.smallfame4{
+    color:#EDC039;
+    background-image: url(../bundles/hashieldwebsite/images/smallfame4.png);
+}
+
+.fame img{
+    width:75px;
+    height:75px;
+    border:1px solid black;
+}
+
+.fame{
+    width:400px;
+    height:400px;
+    background-position:center center;
+    background-repeat:no-repeat;
+    padding-top:50px;
+    color:black;
+    text-shadow: 1px 1px 0px white;
+    text-align: center;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fame h3{
+    margin-bottom:40px;
+}
+
+.fame1{
+    background-image: url(../bundles/hashieldwebsite/images/fame1.png);
+}
+
+.fame2{
+    background-image: url(../bundles/hashieldwebsite/images/fame2.png);
+}
+
+.fame3{
+    background-image: url(../bundles/hashieldwebsite/images/fame3.png);
+}
+
+.fame4{
+    background-image: url(../bundles/hashieldwebsite/images/fame4.png);
+}
