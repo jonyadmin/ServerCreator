@@ -1,19 +1,11 @@
 <html>
-<?php
-if (!isset($_COOKIE["lang"])) {
-	include "lang/pt.php"; }
- elseif ($_COOKIE["lang"]=="en") {
-	include "lang/en.php"; }
- elseif ($_COOKIE["lang"]=="pt") {
-	include "lang/pt.php"; }
-?>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-        <title>ServerCreator - <?php echo TEXTO1 ?></title>
+        <title>ServerCreator - Create your server in just 5 minutes!</title>
         <link rel="stylesheet" type="text/css" charset="UTF-8" media="all" href="css/abd4f20.css"/>
         <meta name="description" content="Regular updates, friendly support :-)" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -60,7 +52,7 @@ if (!isset($_COOKIE["lang"])) {
             
             <ul class="nav navbar-nav">
                 <li class='active'>
-                    <a href="index.php"><?php echo MENU1 ?></a>
+                    <a href="index.php">Home</a>
                 </li>  
 
                                     <li class=''>
@@ -86,10 +78,6 @@ if (!isset($_COOKIE["lang"])) {
 
                 <li class=''>
                     <a href="license/index.html">License</a>
-                </li>
-
-                <li class=''>
-                    <a href="fame/index.html">Hall Of Fame <span class="glyphicon glyphicon-star-empty"></span></a>
                 </li>
 
 
@@ -189,12 +177,16 @@ if (!isset($_COOKIE["lang"])) {
 
     </div>
             </div>
-
-                    <div class='footer'>
-
-            </div>
-        
-
+        <div class='footer'>
+			<div class="form-lang">
+				<label>Language:</label>
+					<select id="" style="height:20px; width:200px;" name="" required="" class="">
+					<option value="Server Administrator">Português</option>
+					<option value="Player">Inglês</option>
+					<option value="Player">Espanhol</option>
+					</select>
+			</div>
+         </div>
     </div>
 
 
