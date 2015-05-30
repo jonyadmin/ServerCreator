@@ -1,3 +1,11 @@
+<?php
+if (!isset($_COOKIE["lang"])) {
+	include "lang/en.php"; }
+ elseif ($_COOKIE["lang"]=="en") {
+	include "lang/en.php"; }
+ elseif ($_COOKIE["lang"]=="pt") {
+	include "lang/pt.php"; }
+?>
 <html>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
@@ -53,7 +61,7 @@
             
             <ul class="nav navbar-nav">
                 <li class='active'>
-                    <a href="index.php">Home</a>
+                    <a href="index.php"><?php echo MENU1 ?></a>
                 </li>  
 
                                     <li class=''>
@@ -178,7 +186,7 @@
 				<div class='footer'>
 					<div class="form-lang">
 						<label>Language:</label>
-							<select id="selectland" name="selectland" class="selectland" onchange="location.href=this.value;">
+							<select id="selectland" class="selectland" onchange="location.href=this.value;">
 							<option value="lang/change_en.php">Inglês</option>
 							<option value="lang/change_pt.php">Português</option>
 							<option value="lang/change_es.php">Espanhol</option>
