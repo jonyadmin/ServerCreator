@@ -1,5 +1,5 @@
 <?php
-if (!isset($_COOKIE["lang"])) {
+if (!isset($_COOKIE['lang'])) {
 	include "lang/pt.php"; }
  elseif ($_COOKIE["lang"]=="en") {
 	include "lang/en.php"; }
@@ -39,9 +39,7 @@ if (!isset($_COOKIE["lang"])) {
                     fjs.parentNode.insertBefore(js, fjs);
                 }(document, 'script', 'facebook-jssdk'));</script>
 
-            <header>
-            
-
+        <header>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 col-lg-3 col-lg-offset-4">
                     <img class="logo" src="img/logo.png" />
@@ -50,66 +48,12 @@ if (!isset($_COOKIE["lang"])) {
         </header>
 
         
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="" id="bs-example-navbar-collapse-1">
-            <a class="navbar-text navbar-right" target="_blank" href="https://twitter.com/HaShieldProtect"><img width="20" height="20" src='img/twitter.png'></a>
-            <a class="navbar-text navbar-right" target="_blank" href="https://www.facebook.com/pages/HaShield-Protection/1462260474060732?ref=tn_tnmn"><img width="20" height="20" src='img/facebook.png'></a>
-
-            <div class="fb-like navbar-text navbar-right" data-href="https://www.facebook.com/pages/HaShield-Protection/1462260474060732?fref=nf" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-            
-            <ul class="nav navbar-nav">
-                <li class='active'>
-                    <a href="index.php"><?php echo MENU1 ?></a>
-                </li>  
-
-                                    <li class=''>
-                        <a 
-                            href="login.html">Login</a></li>
-                    
-                
-                    <li class=''>
-
-                        <a  
-                            href="registers/index.html">
-                            Register
-                        </a>
-                    </li>
-                
-                
-                
-
-                <li class=''>
-                    <a href="help/index.html">Help & F.A.Q</a>
-                </li>
-
-
-                <li class=''>
-                    <a href="license/index.html">License</a>
-                </li>
-
-
-            </ul>
-        </div><!-- /.navbar-collapse -->
-
-        <div>
-
-        </div>
-
-    </div><!-- /.container -->
-</nav>
-
-
+<?php
+include('layout/main.php');
+?>
         <div class="col-xs-12 col-lg-5 col-lg-offset-3">
-                        
-
-
-
         </div>
-            
-
-            <div id="WebsiteContent" class="container">
+<div id="WebsiteContent" class="container">
         
     <div class="col-xs-12 col-lg-6 col-lg-offset-3">
 
@@ -182,7 +126,7 @@ if (!isset($_COOKIE["lang"])) {
 
 
     </div>
-            </div>
+ </div>
 				<div class='footer'>
 					<div class="form-lang">
 						<label>Language:</label>
